@@ -65,3 +65,46 @@ a:hover {
     background-color: #f7d6dc;
     color: #3b1019;
 }
+
+.custom-navbar {
+    background-color: #611e2d;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 8px 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #f7d6dc;
+    background-color: transparent;
+}
+
+.custom-navbar .nav-link {
+    color: #ffffff;
+    background-color: transparent;
+    padding: 8px 15px;
+    margin: 0 3px;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffffff;
+    background-color: #7d3345;
+}
+
+.custom-navbar .nav-link.active {
+    color: #ffffff;
+    background-color: #7d3345;
+}
+
+.custom-navbar .navbar-toggler {
+    border-color: #ffffff;
+}
